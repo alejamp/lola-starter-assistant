@@ -4,7 +4,7 @@
   <img src="https://firebasestorage.googleapis.com/v0/b/numichat.appspot.com/o/Perf_Lola%2BH.way%20banner.png?alt=media&token=8a0dac42-1f76-4754-ac9c-40a93ba02125" alt="Logo">
 </p>
 
-# Lola2 - Lola4i
+# Lola2 - Starter Kit
 
 ### Requirements
 
@@ -107,7 +107,7 @@ Tenant is the main entity. It is the owner of the assistants and channels. It al
 ## Prompt
 
 Upload/publish prompt, in the same directory as the prompt:
-``` prompter --prompt=lola4i.hbr --publish ```
+``` prompter --prompt=prompt.hbr --id=<prompt-id> --publish ```
 
 ## Embeddings
 Upload text to semantic store aka embedings
@@ -122,15 +122,8 @@ prompter --embed=hway.txt
 
 ## Querying Embeddings
 
-Execute ```prompter``` then select Embeddings from menu.
+Execute ```prompter``` then select Embeddings from menu then Query.
 
 
-# Setup Assistant
-
-- [ ] Start ngrok tunnel to localhost:5000  ``` npx ngrok http 5000 ```
-- [ ] Setup ngrok new tunnel URL https://3242-s...ngrok.io as the webhook URL for the Assistant in cinemark_ticketera.
-- [ ] Upload prompt, run at the same directory as the prompt ``` prompter --prompt=ticketera.hbr --publish ```
-- [ ] Create a new Assistant pointing to this prompt: ``` prompter ``` 
-- [ ] Create a channel for the Assistant, and add the channel to the Assistant. ```prompter```
 
 
