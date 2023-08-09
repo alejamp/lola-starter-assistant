@@ -1,0 +1,3 @@
+lolapy @ git+https://github.com/alejamp/lola-py-sdk
+python-dotenv>=1.0.0
+requests

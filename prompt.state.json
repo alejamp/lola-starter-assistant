@@ -1,0 +1,12 @@
+{
+    "name": "Milton",
+    "assistant_name": "Lola",
+    "allowed_assests": [
+        "BTC",
+        "ETH",
+        "ADA",
+        "DOT",
+        "XRP",
+        "LTC"
+    ]
+}
